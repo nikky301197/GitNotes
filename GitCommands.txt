@@ -49,3 +49,38 @@ this command will display commit history on which date , time and author made co
 command - git log
 command - git log --oneline
 ----------------------------------------
+
+8. git revert - 
+revert is the command we use when we want to take a previous commit and add it as a new commit, keeping the log intact.
+for example
+commit 1
+commit 2
+commit 3
+commit 4 --> head pointing on commit 4 
+now we want to revert changes to commit 2 after executing this command 
+commit 1
+commit 2 
+commit 3
+commit 4 
+commit 2 --> head pointing to new replica created of commit 2 code   
+
+
+----------------------------------------
+command - git revert c633df1(commit number )
+----------------------------------------
+
+9. git reset 
+reset is the command we use when we want to move the repository back to a previous commit, discarding all changes made after that commit.
+for example
+commit 1
+commit 2
+commit 3
+commit 4 --> head pointing on commit 4 
+now we want to reset changes to commit 2 after executing this command 
+commit 1
+commit 2 --> head pointing on commit 2 after reseting changes 
+commit 3 commit4 are discared in this case we lost all the commit after 
+commit 2 
+----------------------------------------
+command - git reset c633df1(commit number)
+----------------------------------------
