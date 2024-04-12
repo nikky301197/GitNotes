@@ -1,0 +1,17 @@
+1. git status -
+Used to check status of  directories or file present in git repository
+if git is not initialized then it will throw below error -  
+fatal: not a git repository (or any of the parent directories): .git
+
+2. git init - 
+To enable git in our code git init command is used. Once it enabled all file and folder will be now tracked by git .Git init command will Initialized empty Git repository
+
+3. git diff - 
+to check difference between old changes and new changes 
+for example - hello.js 
+const age = 12;
+const name = "nikita"
++const msg = "hello" (+ plus sign indicated new line added)
+-const str = "hi"  (- sign indicated this line is removed)
+
+
