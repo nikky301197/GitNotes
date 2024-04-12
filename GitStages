@@ -1,0 +1,17 @@
+#Git repository -
+1. local  repository 
+2. remote repository 
+
+#phase in git 
+workingDirectory   staggingArea   localRepo     remoteRepo 
+----------------------------------------------------------------------
+index.js            git add .      git commit    git push origin main 
+-----------------------------------------------------------------------
+
+#Status of file  
+1. untracked - when file is not added into staggingArea then it is untracked file 
+2. modified - when file is added into  staggingArea but modified.
+3. staged -  we can use git add to add this changed file to Staging Area .
+4. committed -  when we commited our code changes to the local repo using “git commit then 
+
+

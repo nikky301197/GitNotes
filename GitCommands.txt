@@ -2,16 +2,49 @@
 Used to check status of  directories or file present in git repository
 if git is not initialized then it will throw below error -  
 fatal: not a git repository (or any of the parent directories): .git
+----------------------------------------
+command - git status
+----------------------------------------
 
 2. git init - 
 To enable git in our code git init command is used. Once it enabled all file and folder will be now tracked by git .Git init command will Initialized empty Git repository
+----------------------------------------
+command - git init 
+----------------------------------------
 
-3. git diff - 
-to check difference between old changes and new changes 
+3. git add - 
+  a. git add file_name 
+  this command will add specific file that is mentioned in the command
+  b. git add .
+  this command will add  all the file .
+
+----------------------------------------
+command - git add index.js 
+command - git add . 
+----------------------------------------
+
+4. git remove -
+
+5. git diff - 
+to check difference between old changes and new changes
 for example - hello.js 
 const age = 12;
 const name = "nikita"
 +const msg = "hello" (+ plus sign indicated new line added)
--const str = "hi"  (- sign indicated this line is removed)
+-const str = "hi"  (- sign indicated this line is remove)
+----------------------------------------
+command - git diff index.js
+command - git diff
+----------------------------------------
 
+6. git commit - 
+This command is used to commit changes made in the file or folder 
+----------------------------------------
+command - git commit -m "commit message"
+----------------------------------------
 
+7. git log - 
+this command will display commit history on which date , time and author made commit  .git log only operates on the committed history.
+----------------------------------------
+command - git log
+----------------------------------------
