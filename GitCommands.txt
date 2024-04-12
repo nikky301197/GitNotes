@@ -47,4 +47,5 @@ command - git commit -m "commit message"
 this command will display commit history on which date , time and author made commit  .git log only operates on the committed history.
 ----------------------------------------
 command - git log
+command - git log --oneline
 ----------------------------------------
