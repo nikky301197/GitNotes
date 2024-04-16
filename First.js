@@ -13,3 +13,9 @@ function nationality()
 {
     return "indian" ;
 }
+
+// code added by lisha 
+function state()
+{
+    return "mp" ;
+}
