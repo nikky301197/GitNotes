@@ -8,3 +8,8 @@ function age()
 {
     return 18 ;
 }
+// code added by aanuska 
+function nationality()
+{
+    return "indian" ;
+}
