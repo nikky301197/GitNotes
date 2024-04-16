@@ -63,8 +63,6 @@ commit 2
 commit 3
 commit 4 
 commit 2 --> head pointing to new replica created of commit 2 code   
-
-
 ----------------------------------------
 command - git revert c633df1(commit number )
 ----------------------------------------
@@ -83,4 +81,32 @@ commit 3 commit4 are discared in this case we lost all the commit after
 commit 2 
 ----------------------------------------
 command - git reset c633df1(commit number)
+----------------------------------------
+
+10. git branch -
+display all the present branches .
+----------------------------------------
+command - git branch 
+----------------------------------------
+
+11. git branch <branch name > -
+this command is used to create a new branch. 
+----------------------------------------
+command - git branch nikitabranch  
+----------------------------------------
+
+12. git checkout <branchname> - 
+used to switch from one branch to another branch 
+for example 
+* main --> right now im at this branch 
+nikitabranch 
+Internal working - 
+1. switch from branch1 to branch2. 
+2. branch1 code pushed into branch2. 
+3. Currently pointing to branch2  so the new commit will reflect into current branch only (branch2).
+after execution of this command 
+ main 
+* nikitabranch --> right now im at this branch 
+----------------------------------------
+command - git checkout nikitabranch  
 ----------------------------------------
