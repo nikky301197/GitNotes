@@ -110,3 +110,26 @@ after execution of this command
 ----------------------------------------
 command - git checkout nikitabranch  
 ----------------------------------------
+
+
+13. git merge origin/branchname -
+1. command used merge change of new branch to old branch
+2. new branch - has feature3
+   old branch - has feature 1 , feature 2 
+   this command will fetch new commit and added into the old branch code base 
+   old branch - feature1 , feature2 and feature3 
+   this command merge code of nikitabranch to main branch
+------------------------------------------
+command - git merge origin/nikitabranch  
+------------------------------------------
+
+14. git push -
+push code from local repository to remote repository.
+changes must be commit before executing git push command.
+------------------------------------------
+command - git push origin branchname 
+------------------------------------------
+
+
+
+
