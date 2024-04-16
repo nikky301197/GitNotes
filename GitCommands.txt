@@ -126,9 +126,19 @@ command - git merge origin/nikitabranch
 14. git push -
 push code from local repository to remote repository.
 changes must be commit before executing git push command.
+this command push code to origin (remote repository) on your branch(branch name) 
 ------------------------------------------
 command - git push origin branchname 
 ------------------------------------------
+
+14. git remote add origin   -
+Remote repositories are created and  present on git hub.
+to add remote repositories in our local system we need to use this command. 
+origin - your remote  repositories nick  name 
+-----------------------------------------------------------
+command -git remote add origin https://your_remote_repo_url.git 
+-----------------------------------------------------------
+
 
 
 
